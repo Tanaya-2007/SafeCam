@@ -1,0 +1,252 @@
+/*Media Queries*/
+@media screen and (max-width:1200px) 
+{   
+    .aboutus-info
+    {   
+        width: 551px;
+    }    
+    .aboutus-info h1
+    {
+     font-size: 4rem;
+    }
+     .aboutus-img 
+    {
+        width: 360px;
+        height: 590px;
+    }
+    .flex 
+    {
+        width: 300px;
+    }
+    
+}   
+
+@media  screen and (max-width:900px) 
+{
+    .hamburger
+    {
+        display: inherit;
+    }    
+    .nav
+    {
+        position:fixed;
+        top:8rem;
+        width:100%;
+        height: fit-content;
+        background-color: #fff;
+        flex-direction: column;
+        z-index:100;
+        display: none;
+        transition:all .5s ease;
+    }
+    nav.active .nav
+    {
+        display:flex;
+    }
+    .phone
+    {
+        padding:2rem 2rem;
+    }
+    nav h1
+   {
+     font-size:3rem;
+     margin-left: 20px;
+    }
+    .hero
+   {
+      padding :0 50px;
+   }
+   .hero h1
+   {
+    font-size: 50px;
+    color:#fff;
+    margin:20px 0;
+    
+   }
+   .hero h2
+  {
+    font-size:15px;
+    
+  }
+ 
+.btn-2
+{
+    margin: 0 5px;
+}    
+.btn-1
+{
+    margin: 0 5px;
+   
+}
+#aboutus
+{
+    padding:5rem 0;
+}
+
+.aboutus-img
+{
+    width: 550px;
+    height: 590px;
+}
+.aboutus-info
+{
+    margin:50px 0 0 0;
+    width:800px;
+}
+.offer 
+{
+    width: 90%;
+}
+.footer 
+{
+    flex-wrap: wrap;
+    width:90%;
+}
+.footer-boxes
+{
+    margin: 2rem 2rem;
+}
+
+}
+
+@media  screen and (max-width:700px) 
+{
+    .hero h1
+    {
+     font-size: 40px;
+        
+    }
+    .aboutus-info
+   {
+    margin:50px 0 0 0;
+    width:550px;
+   }
+   .headers h1
+   {
+     font-size: 40px;
+   }
+   .offer h1
+   {
+    font-size: 40px;
+   } 
+} 
+
+@media  screen and (max-width:600px) 
+{
+    .hero
+    {
+        padding: 0 2rem;
+    }
+    .hero-btn
+    {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .btn-1
+    {
+        margin-bottom:2rem;
+    }
+    .aboutus-img
+    {
+        width:540px;
+        height: 303px;
+        margin-top: 5rem;
+    }
+    .aboutus-boxes
+   {
+     flex-direction: column; 
+         
+    }
+    .aboutus-boxes .box
+   {
+    width: 90%;
+   }
+   .aboutus-info h1
+  {
+    font-size: 30px;
+   
+   }
+   .headers h1
+  {
+    margin: 2rem 0 40px;
+   font-size: 40px;
+  }
+  .headers
+  {
+    width:90%;
+  }
+  .flex
+  {
+    width:90%;
+  }
+  .offer
+  {
+    width:100%
+  }
+  .btn-hero
+  {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;    
+  }
+}
+@media  screen and (max-width:500px)
+{
+    
+    .hero h1
+   {
+    font-size: 30px;
+   }
+   .hero h2
+  {
+    font-size:15px;
+  }
+  .nav ul
+  {
+    flex-direction: column;
+  }
+   #hero
+   {
+    padding:0 3rem;
+   }
+   .aboutus-img 
+  {
+   width: 450px;
+   height: 253px;
+   margin-top: 10px;
+   }
+   .aboutus-info
+   {
+    width:90%;
+   }
+   .headers h1
+   {
+    font-size:30px;    
+   }
+   .pricing-box
+   {
+     width: 80%;
+   }
+   .pricing-box .btn-1
+   {
+    padding: .8rem 2rem;
+    transform: translateY(40px);
+   }
+    .offer h1
+   {
+       font-size: 30px;
+   }
+   .footer-mail
+   {
+    width:60%;
+   }
+   .footer-mail a
+   {
+    font-size: 17px;
+    padding: 0 20px;
+    width:60%;
+   }
+} 
